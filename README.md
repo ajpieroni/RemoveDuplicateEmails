@@ -1,4 +1,5 @@
 # Remove Duplicate Emails
+This python script will remove duplicate emails, along with removing non-email entries, from a .csv.
 ## How to Use:
 
 -  Ensure you have python3 installed, you can check by typing `which python3` in your terminal
