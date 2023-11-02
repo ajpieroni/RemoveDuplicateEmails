@@ -26,6 +26,6 @@ def remove_duplicates_from_csv(input_filename, output_filename):
         writer = csv.writer(csv_file)
         writer.writerows(unique_rows)
 
-input_filename = "hnhemails.csv" #modify as needed
-output_filename = "cleaned_hnh_emails.csv" #modify as needed
+input_filename = "input.csv" #modify as needed
+output_filename = "output.csv" #modify as needed
 remove_duplicates_from_csv(input_filename, output_filename)
